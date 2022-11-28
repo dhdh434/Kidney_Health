@@ -4,4 +4,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def indexPageView(request) :
-    return HttpResponse('Eat a Banana!') 
+    return render(request, 'webpages/index.html')
+
+def aboutPageView(request) :
+    return render(request, 'webpages/about.html')
