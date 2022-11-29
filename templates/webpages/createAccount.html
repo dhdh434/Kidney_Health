@@ -8,5 +8,19 @@
         <div class="masthead-heading text-uppercase">See how your kidneys are doing</div>
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{% url 'login' %}">Log in</a>
     </div>
+
+    <div class = "col-md-4">
+        <div class = "border p-3 shadow">
+            <h4>Add Data</h4>
+            <hr>
+            <form method="POST">
+                {% csrf_token %}
+                {{ form }}
+                <input class = 'btn btn-success btn-block' type='submit' value = 'Add'>
+            </form>
+        </div>
+    </div>
+
+    
 </header>
 {% endblock%}
