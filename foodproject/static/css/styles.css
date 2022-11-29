@@ -56,7 +56,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: pink;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -10109,7 +10109,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../img/header-bg.jpg");
+  background-color: pink;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;

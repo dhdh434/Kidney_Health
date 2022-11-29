@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{%load static%}
+{%block content%}
+<!-- Masthead-->
+<header class="masthead">
+    <div class="container">
+        <div class="masthead-subheading">Log in to your Kidney Health Account</div>
+        <div class="masthead-heading text-uppercase">See how your kidneys are doing</div>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{% url 'login' %}">Log in</a>
+    </div>
+</header>
+{% endblock%}

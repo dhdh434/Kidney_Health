@@ -5,7 +5,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <title>Kidney Health</title>
-        <link rel="icon" type="image/x-icon" href="{% static 'img/world.png'%}" />
+        <link rel="icon" type="image/x-icon" href="{% static 'img/kidney.jpg' %}" />
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
@@ -22,7 +22,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{% url 'about' %}">About</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" style= "color:black" href="{% url 'index' %}">Home</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" style= "color:black" href="{% url 'about' %}">About</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" style= "color:black" href="{% url 'login' %}">Log In</a></li>
                     </ul>
                 </div>
             </div>
@@ -34,7 +36,7 @@
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div>Copyright ©TripMe Travel 2020</div>
+                    <div>Copyright ©Kidney Health 2022</div>
                 </div>
             </div>
         </footer>

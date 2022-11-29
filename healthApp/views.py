@@ -8,3 +8,9 @@ def indexPageView(request) :
 
 def aboutPageView(request) :
     return render(request, 'webpages/about.html')
+
+def loginPageView(request) :
+    return render(request, 'webpages/login.html')
+
+def bootPageView(request) :
+    return render(request, 'webpages/bootstrap.html')
