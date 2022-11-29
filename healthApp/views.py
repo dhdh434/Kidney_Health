@@ -14,3 +14,6 @@ def loginPageView(request) :
 
 def bootPageView(request) :
     return render(request, 'webpages/bootstrap.html')
+
+def createAccPageView(request) :
+    return render(request, 'webpages/createAccount.html')
