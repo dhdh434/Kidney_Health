@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'foodproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'kidneydb',
+        'NAME': 'testdb',
         'USER': 'postgres',
         'PASSWORD': 'Dave',
         'HOST': 'localhost'
